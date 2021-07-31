@@ -17,13 +17,19 @@ React Native Switch Library
 ## Installation
 
 ```sh
-npm install @nghinv/react-native-switch
+yarn add @nghinv/react-native-switch
 ```
 
 or 
 
 ```sh
-yarn add @nghinv/react-native-switch
+npm install @nghinv/react-native-switch
+```
+
+- peerDependencies
+
+```sh
+yarn add react-native-gesture-handler react-native-reanimated
 ```
 
 ## Usage
@@ -87,6 +93,11 @@ export default App;
 |----------|:----:|:-------:|-------------|
 | false | `String` | `rgba(120, 120, 120, 0.3)` |  |
 | true | `String` | `#31D158` |  |
+
+---
+## Credits
+
+- [@Nghi-NV](https://github.com/Nghi-NV)
 
 [version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-switch.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@nghinv/react-native-switch
